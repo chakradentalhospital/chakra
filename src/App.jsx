@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 import Contact from "./pages/Contact";
 import PainFreeTreatment from "./pages/Services/PainFreeTreatment";
 import Aligners from "./pages/Services/Aligners";
-import Invisalign from "./pages/services/Invisalign";
+import Invisalign from "./pages/Services/Invisalign";
 import WisdomToothRemoval from "./pages/Services/WisdomToothRemoval";
 import Scaling from "./pages/Services/Scaling";
 import ToothWhitening from "./pages/Services/ToothWhitening";
