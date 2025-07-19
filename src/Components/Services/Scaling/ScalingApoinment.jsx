@@ -1,6 +1,7 @@
 import React from "react";
 import implantImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const ScalingApoinment = () => {
   return (
@@ -20,21 +21,27 @@ const ScalingApoinment = () => {
             Don’t Let Plaque Turn into a Problem
           </h2>
           <p className="text-lg">
-            A clean smile is a healthy smile. Scaling not only improves the appearance of your teeth but also protects them from disease and damage.
+            A clean smile is a healthy smile. Scaling not only improves the
+            appearance of your teeth but also protects them from disease and
+            damage.
           </p>
           <p className="text-lg">
-            Regular dental cleanings are one of the simplest, most affordable ways to maintain long-term oral health.
+            Regular dental cleanings are one of the simplest, most affordable
+            ways to maintain long-term oral health.
           </p>
           <p className="text-lg font-medium">
-            Call Chakra Dental now or book your appointment online for a professional dental cleaning.
+            Call Chakra Dental now or book your appointment online for a
+            professional dental cleaning.
           </p>
           <p className="text-md italic text-white/80">
             Let your smile shine — fresh, clean, and full of confidence.
           </p>
 
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         {/* Image */}

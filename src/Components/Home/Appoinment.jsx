@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import implantImg from "../../assets/Home/8.jpg";
 import teeth from "../../assets/Home/theeth.png";
 
@@ -18,11 +19,13 @@ const Appoinment = () => {
             with dental implants!
           </h2>
           <p className="mb-4 text-lg">
-            Call at <span className="font-bold">1800 987 6536</span>
+            Call at <a href="tel:18009876536" className="font-bold underline">1800 987 6536</a>
           </p>
-          <button className="mt-2 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-2 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         <div className="flex-shrink-0">

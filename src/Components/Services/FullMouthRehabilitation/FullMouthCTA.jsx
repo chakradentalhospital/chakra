@@ -1,5 +1,6 @@
 import React from "react";
 import { MdCall } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const FullMouthCTA = () => {
   return (
@@ -12,19 +13,23 @@ const FullMouthCTA = () => {
           A new beginning Awaits
         </h2>
         <p className="text-lg md:text-xl mb-8 leading-relaxed">
-          Your smile can have a another opportunity. With Chakra Dental's Full Mouth Rehabilitation program, 
-          you don't dental repair — you take back comfort, confidence, and overall satisfaction.
+          Your smile can have a another opportunity. With Chakra Dental's Full
+          Mouth Rehabilitation program, you don't dental repair — you take back
+          comfort, confidence, and overall satisfaction.
         </p>
         <p className="text-lg md:text-xl font-medium mb-10">
-           Call us today or schedule an in-depth consultation to start your total smile transformation.
+          Call us today or schedule an in-depth consultation to start your total
+          smile transformation.
           <br />
           Let's restore your smile, beautifully and forever.
         </p>
         <button className="bg-white text-[#650E45] px-6 py-3 rounded-full font-semibold text-lg shadow-md hover:bg-gray-100 transition-all cursor-pointer hover:scale-110">
-          <div className="flex items-center gap-2 justify-center">
-            <MdCall size={22} />
-            Book Consultation
-          </div>
+          <Link to="/contact">
+            <div className="flex items-center gap-2 justify-center">
+              <MdCall size={22} />
+              Book Consultation
+            </div>
+          </Link>
         </button>
       </div>
     </section>

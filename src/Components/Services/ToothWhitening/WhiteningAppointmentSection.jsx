@@ -1,6 +1,7 @@
 import React from "react";
 import whiteningImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const WhiteningAppointmentSection = () => {
   return (
@@ -21,15 +22,19 @@ const WhiteningAppointmentSection = () => {
           </h2>
           <p className="mb-4 text-lg">
             Ready to boost your image with a brilliant smile? <br />
-            At Chakra Dental, we merge clinical awesomeness with enhanced beauty treatment techniques to give you the smile makeover you deserve.
+            At Chakra Dental, we merge clinical awesomeness with enhanced beauty
+            treatment techniques to give you the smile makeover you deserve.
           </p>
           <p className="text-lg">
             Call us now or book your virtual meeting. <br />
-            Let’s bring out the sparkling, most joyful of your smiles — in just one visit.
+            Let’s bring out the sparkling, most joyful of your smiles — in just
+            one visit.
           </p>
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         {/* Image */}

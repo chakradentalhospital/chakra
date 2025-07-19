@@ -15,7 +15,6 @@ const benefits = [
   "Supports proper teeth alignment and bite",
 ];
 
-
 const careTips = [
   {
     title: "Brush and floss once a day",
@@ -53,7 +52,7 @@ const DentalCrownBenefits = () => {
             data-aos="fade-up"
             data-aos-delay={index * 100}
           >
-            <FaCheckCircle className="text-[#650E45] mt-1" />
+            <FaCheckCircle className="text-[#650E45] mt-1 min-w-[25px]" />
             {point}
           </li>
         ))}

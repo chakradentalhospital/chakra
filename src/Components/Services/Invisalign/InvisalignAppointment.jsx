@@ -1,6 +1,7 @@
 import React from "react";
 import alignerImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const InvisalignAppointment = () => {
   return (
@@ -18,14 +19,20 @@ const InvisalignAppointment = () => {
           </h2>
           <p className="mb-4 text-lg">
             Ready to transform your smile non-metallic? <br />
-            Invisalign at Chakra Dental is more than just a beautification — it’s an investment in your self-assurance, relief, and long-term dental health.
+            Invisalign at Chakra Dental is more than just a beautification —
+            it’s an investment in your self-assurance, relief, and long-term
+            dental health.
           </p>
           <p className="text-lg">
-             Call now or  book online for your Invisalign consultation with our expert team. Let’s get started on your invisible path to a beautiful, lasting smile!
+            Call now or book online for your Invisalign consultation with our
+            expert team. Let’s get started on your invisible path to a
+            beautiful, lasting smile!
           </p>
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         <div className="flex-shrink-0">

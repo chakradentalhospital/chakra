@@ -1,6 +1,7 @@
 import React from "react";
 import implantImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const RootCanalCtaSection = () => {
   return (
@@ -20,18 +21,23 @@ const RootCanalCtaSection = () => {
             Save Your Tooth Today
           </h2>
           <p className="text-lg">
-            Don't suffer with a toothache or risk losing a tooth. Our root canals are quick, safe, and surprisingly painless — all thanks to our skilled care and advanced technology.
+            Don't suffer with a toothache or risk losing a tooth. Our root
+            canals are quick, safe, and surprisingly painless — all thanks to
+            our skilled care and advanced technology.
           </p>
           <p className="text-lg font-medium">
-             Call Chakra Dental today or schedule your root canal consultation online.
+            Call Chakra Dental today or schedule your root canal consultation
+            online.
           </p>
           <p className="text-md italic text-white/80">
             Save your smile — one tooth at a time.
           </p>
 
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         {/* Image */}

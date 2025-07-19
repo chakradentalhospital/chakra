@@ -1,6 +1,7 @@
 import React from "react";
 import implantImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const WisdomApoinment = () => {
   return (
@@ -20,21 +21,28 @@ const WisdomApoinment = () => {
             Don’t Wait Until It Hurts
           </h2>
           <p className="text-lg">
-            Wisdom teeth may seem harmless, but delaying removal can lead to serious problems like infections, cysts, tooth decay, and orthodontic shifting.
+            Wisdom teeth may seem harmless, but delaying removal can lead to
+            serious problems like infections, cysts, tooth decay, and
+            orthodontic shifting.
           </p>
           <p className="text-lg">
-            Whether you’re experiencing pain or just want to get checked, our team is here to help you take action early — the pain-free way.
+            Whether you’re experiencing pain or just want to get checked, our
+            team is here to help you take action early — the pain-free way.
           </p>
           <p className="text-lg font-medium">
-             Call now or  book your consultation online to schedule your wisdom tooth evaluation with our surgical expert at Chakra Dental.
+            Call now or book your consultation online to schedule your wisdom
+            tooth evaluation with our surgical expert at Chakra Dental.
           </p>
           <p className="text-md italic text-white/80">
-            Let’s take the wisdom — and the pain — out of wisdom teeth, together.
+            Let’s take the wisdom — and the pain — out of wisdom teeth,
+            together.
           </p>
 
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         {/* Image */}

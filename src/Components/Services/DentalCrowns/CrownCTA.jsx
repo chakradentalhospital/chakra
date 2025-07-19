@@ -1,5 +1,6 @@
 import React from "react";
-import ctaImg from "../../../assets/services/29.jpg"; 
+import ctaImg from "../../../assets/services/29.jpg";
+import { Link } from "react-router-dom";
 
 const CrownCTA = () => {
   return (
@@ -10,12 +11,15 @@ const CrownCTA = () => {
             Book Your Crown Consultation Today
           </h2>
           <p className="text-gray-700 text-lg md:text-xl">
-            Don&apos;t let a broken tooth turn into a missing tooth. At Chakra Dental, we
-            provide precision-made crowns that restore your bite and your self-confidence.
+            Don&apos;t let a broken tooth turn into a missing tooth. At Chakra
+            Dental, we provide precision-made crowns that restore your bite and
+            your self-confidence.
           </p>
-          <button className="bg-[#650E45] hover:bg-[#4e0935] transition text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 duration-300">
-            Book Appointment
-          </button>
+          <Link to="/contact">
+            <button className="bg-[#650E45] hover:bg-[#4e0935] transition text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:scale-105 duration-300">
+              Book Appointment
+            </button>
+          </Link>
         </div>
         <div
           data-aos="fade-left"

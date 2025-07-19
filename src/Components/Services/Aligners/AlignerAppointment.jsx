@@ -1,6 +1,7 @@
 import React from "react";
 import alignerImg from "../../../assets/Home/8.jpg";
 import teeth from "../../../assets/Home/theeth.png";
+import { Link } from "react-router-dom";
 
 const AlignerAppointment = () => {
   return (
@@ -18,14 +19,19 @@ const AlignerAppointment = () => {
           </h2>
           <p className="mb-4 text-lg">
             Ready to align your smile the invisible way? <br />
-            plan a clear aligner consultation at Chakra Dental today and discover how we can transform your smile with wireless and 100% confidence.
+            plan a clear aligner consultation at Chakra Dental today and
+            discover how we can transform your smile with wireless and 100%
+            confidence.
           </p>
           <p className="text-lg">
-            👉 Call us or book online to begin your journey toward a straighter, more beautiful smile — the modern way.
+            Call us or book online to begin your journey toward a straighter,
+            more beautiful smile — the modern way.
           </p>
-          <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
-            Book an Appointment
-          </button>
+          <Link to="/contact">
+            <button className="mt-4 px-6 py-3 bg-white text-[#650E45] font-semibold rounded-full hover:bg-gray-200 transition-all">
+              Book an Appointment
+            </button>
+          </Link>
         </div>
 
         <div className="flex-shrink-0">
