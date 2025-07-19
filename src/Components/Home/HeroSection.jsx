@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import slide1 from "../../assets/Home/slide-1.jpg";
 import slide2 from "../../assets/Home/slide-2.jpg";
 import slide3 from "../../assets/Home/slide-3.jpg";
+import { Link } from "react-router-dom";
 
 const slides = [
   {
@@ -24,7 +25,6 @@ const slides = [
     desc: "Experience modern dentistry  with a personal, caring touch.",
   },
 ];
-
 
 const HeroSection = () => {
   const prevRef = useRef(null);
@@ -58,9 +58,11 @@ const HeroSection = () => {
                 <p className="max-w-4xl mx-auto text-2xl md:text-5xl font-bold leading-relaxed whitespace-pre-line mb-6 px-5">
                   {slide.desc}
                 </p>
-                <button className="bg-[#650E45] px-5 py-2 md:px-6 md:py-3 rounded-sm text-white text-lg md:text-base font-medium hover:opacity-90 transition">
-                  Make Appointment
-                </button>
+                <Link to="/contact">
+                  <button className="bg-[#650E45] px-5 py-2 md:px-6 md:py-3 rounded-sm text-white text-lg md:text-base font-medium hover:opacity-90 transition">
+                    Make Appointment
+                  </button>
+                </Link>
               </div>
             </div>
           </SwiperSlide>
