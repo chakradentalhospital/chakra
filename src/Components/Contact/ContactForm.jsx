@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import validator from "validator";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -61,9 +65,29 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!validateForm()) return;
-    alert("Form submitted!");
-    setFormData({ name: "", email: "", phoneNo: "", message: "" });
+
+    emailjs
+      .send(
+        "service_x8rzipp", 
+        "template_k8sdydb", 
+        {
+          from_name: formData.name,
+          phone: formData.phoneNo,
+          reply_to: formData.email,
+          message: formData.message,
+        },
+        "KFW_3eSWlz-QbSGBq" 
+      )
+      .then(() => {
+        toast.success("Message sent successfully 🎉");
+        setFormData({ name: "", email: "", phoneNo: "", message: "" });
+      })
+      .catch((err) => {
+        console.error(err);
+        alert("Failed to send message.");
+      });
   };
+
 
   return (
     <section className="py-20 px-5 md:px-10 lg:px-[64px] bg-[#f9f9f9]">
