@@ -23,6 +23,8 @@ import FullMouthRehabilitation from "./pages/Services/FullMouthRehabilitation";
 import DentalCrowns from "./pages/Services/DentalCrowns";
 import ZirconiaCrowns from "./pages/Services/ZirconiaCrowns";
 import FloatingCTA from "./FloatingCTA";
+import { ToastContainer } from "react-toastify";
+
 
 const App = () => {
   useEffect(() => {
@@ -34,6 +36,7 @@ const App = () => {
   return (
     <Router>
       <ScrollToTop />
+      <ToastContainer position="top-right" autoClose={3000} theme="colored" />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
