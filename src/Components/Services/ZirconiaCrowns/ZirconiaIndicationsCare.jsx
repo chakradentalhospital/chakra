@@ -59,7 +59,6 @@ const care = [
 const ZirconiaIndicationsCare = () => {
   return (
     <section className="px-6 md:px-16 py-20 bg-white overflow-hidden">
-      {/* INDICATIONS */}
       <h2 className="text-3xl md:text-4xl font-bold text-center text-[#650E45] mb-12">
         When Are Zirconia Crowns Indicated?
       </h2>
