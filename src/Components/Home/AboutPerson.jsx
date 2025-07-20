@@ -7,7 +7,7 @@ const cards = [
   {
     icon: <FaGraduationCap className="text-2xl text-[#650E45]" />,
     title: "BDS",
-    desc: "University of Delhi",
+    desc: "University of Delhi- Dr.MGR Medical University and research institute",
   },
   {
     icon: <FaAward className="text-2xl text-[#650E45]" />,
