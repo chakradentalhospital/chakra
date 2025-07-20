@@ -63,8 +63,8 @@ const Footer = () => {
           <div className="mb-4">
             <h4 className="font-semibold text-sm mb-1">Second Office</h4>
             <p className="text-sm leading-relaxed">
-              Trichy Rd,
-              <br />
+              167 - door number Ondipudur Opposite to Sakthii stores
+              Next to Chola hotel Trichy Rd,
               Coimbatore,
               <br />
               Tamil Nadu 641016
