@@ -3,9 +3,11 @@ import validator from "validator";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
 
 const ContactForm = () => {
+   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -79,8 +81,9 @@ const ContactForm = () => {
         "KFW_3eSWlz-QbSGBq" 
       )
       .then(() => {
-        toast.success("Message sent successfully 🎉");
+        toast.success("Message sent successfully");
         setFormData({ name: "", email: "", phoneNo: "", message: "" });
+        navigate("/thankyou");
       })
       .catch((err) => {
         console.error(err);

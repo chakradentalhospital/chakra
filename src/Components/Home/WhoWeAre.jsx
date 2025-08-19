@@ -43,36 +43,82 @@ const WhoWeAre = () => {
         <h5 className="text-[#650E45] text-sm font-bold uppercase tracking-widest mb-2">
           Who We Are
         </h5>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Welcome to Chakra</h2>
+        <h1 className="text-3xl md:text-3xl font-bold mb-4">
+          Welcome to Chakra Dental Hospital
+        </h1>
         <div className="w-1/2 h-[3px] bg-[#650E45] mb-6" />
 
         <p className="text-gray-700 leading-relaxed text-base md:text-lg">
           At{" "}
-          <span className="text-[#650E45] font-semibold">Chakra Dental Clinic</span>, we trust that a{" "}
-          <span className="text-[#650E45] font-semibold">healthy smile</span> is the gateway to overall comfort.
-          Established in <span className="text-[#650E45] font-semibold">2023</span>, Chakra Dental was founded with
-          one simple yet insightful vision — to serve the community with{" "}
+          <span className="text-[#650E45] font-semibold">
+            Chakra Dental Clinic
+          </span>
+          , we trust that a{" "}
+          <span className="text-[#650E45] font-semibold">healthy smile</span> is
+          the gateway to overall comfort. Established in{" "}
+          <span className="text-[#650E45] font-semibold">2023</span>, Chakra
+          Dental was founded with one simple yet insightful vision — to serve
+          the community with{" "}
           <span className="text-[#650E45] font-semibold">moral vision</span>,{" "}
           <span className="text-[#650E45] font-semibold">reasonable</span>, and{" "}
-          <span className="text-[#650E45] font-semibold">expert dental care</span>.
-          <br /><br />
+          <span className="text-[#650E45] font-semibold">
+            expert dental care
+          </span>
+          .
+          <br />
+          <br />
           More than just a dental clinic, we are a{" "}
-          <span className="text-[#650E45] font-semibold">service-oriented center</span> where{" "}
-          <span className="text-[#650E45] font-semibold">compassion</span> meets{" "}
-          <span className="text-[#650E45] font-semibold">clinical excellence</span>.
-          <br /><br />
+          <span className="text-[#650E45] font-semibold">
+            service-oriented center
+          </span>{" "}
+          where <span className="text-[#650E45] font-semibold">compassion</span>{" "}
+          meets{" "}
+          <span className="text-[#650E45] font-semibold">
+            clinical excellence
+          </span>
+          .
+          <br />
+          <br />
           From the very beginning, our goal has been to promote{" "}
-          <span className="text-[#650E45] font-semibold">oral hygiene awareness</span>, especially among{" "}
-          <span className="text-[#650E45] font-semibold">underserved populations</span>, and to provide{" "}
-          <span className="text-[#650E45] font-semibold">high-quality dental services</span> for every age group.
-          <br /><br />
-          Our <span className="text-[#650E45] font-semibold">multi-special dental clinic</span> offers extensive dental treatments —
-          from <span className="text-[#650E45] font-semibold">basic oral public health care</span> to{" "}
-          <span className="text-[#650E45] font-semibold">advanced oral surgeries</span>.
-          Whether it’s a <span className="text-[#650E45] font-semibold">child’s first dental visit</span>, an{" "}
-          <span className="text-[#650E45] font-semibold">older individual</span> needing{" "}
-          <span className="text-[#650E45] font-semibold">full-mouth rehabilitation</span>, or someone suffering from{" "}
-          <span className="text-[#650E45] font-semibold">dental injury</span> — we have committed specialists for every requirement.
+          <span className="text-[#650E45] font-semibold">
+            oral hygiene awareness
+          </span>
+          , especially among{" "}
+          <span className="text-[#650E45] font-semibold">
+            underserved populations
+          </span>
+          , and to provide{" "}
+          <span className="text-[#650E45] font-semibold">
+            high-quality dental services
+          </span>{" "}
+          for every age group.
+          <br />
+          <br />
+          Our{" "}
+          <span className="text-[#650E45] font-semibold">
+            multi-special dental clinic
+          </span>{" "}
+          offers extensive dental treatments — from{" "}
+          <span className="text-[#650E45] font-semibold">
+            basic oral public health care
+          </span>{" "}
+          to{" "}
+          <span className="text-[#650E45] font-semibold">
+            advanced oral surgeries
+          </span>
+          . Whether it’s a{" "}
+          <span className="text-[#650E45] font-semibold">
+            child’s first dental visit
+          </span>
+          , an{" "}
+          <span className="text-[#650E45] font-semibold">older individual</span>{" "}
+          needing{" "}
+          <span className="text-[#650E45] font-semibold">
+            full-mouth rehabilitation
+          </span>
+          , or someone suffering from{" "}
+          <span className="text-[#650E45] font-semibold">dental injury</span> —
+          we have committed specialists for every requirement.
         </p>
       </div>
     </section>
