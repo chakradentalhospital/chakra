@@ -92,7 +92,7 @@ const Navbar = () => {
               <div className="grid grid-cols-2 gap-x-12 gap-y-4 px-6">
                 {serviceModules.map((item, idx) => (
                   <Link
-                    to={`/services/${item.toLowerCase().replace(/ /g, "-")}`}
+                    to={`/${item.toLowerCase().replace(/ /g, "-")}`}
                     key={idx}
                     className="block text-sm font-medium text-gray-700 hover:text-[#650E45] hover:bg-[#f9f9f9] px-3 py-2 rounded-md transition duration-200"
                     onClick={() => setShowDropdown(false)}

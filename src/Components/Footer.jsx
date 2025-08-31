@@ -124,7 +124,7 @@ const Footer = () => {
             {serviceModules.map((service, idx) => (
               <li key={idx}>
                 <Link
-                  to={`/services/${service.toLowerCase().replace(/ /g, "-")}`}
+                  to={`/${service.toLowerCase().replace(/ /g, "-")}`}
                   className="hover:text-[#FFAE00] transition-colors"
                 >
                   {service}
