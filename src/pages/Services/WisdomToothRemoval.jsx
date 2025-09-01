@@ -20,7 +20,7 @@ const WisdomToothRemoval = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/wisdom-tooth-removal"
+          href="https://www.chakradental.in/wisdom-tooth-removal"
         />
       </Helmet>
       <WisdomToothRemovalHero />

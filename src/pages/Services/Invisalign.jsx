@@ -21,7 +21,7 @@ const Invisalign = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/invisalign"
+          href="https://www.chakradental.in/invisalign"
         />
       </Helmet>
       <InvisalignHeroSection />

@@ -21,7 +21,7 @@ const Scaling = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/scaling"
+          href="https://www.chakradental.in/scaling"
         />
       </Helmet>
       <ScalingHeroSection />

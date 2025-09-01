@@ -18,7 +18,7 @@ const ZirconiaCrowns = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/zirconia-crowns"
+          href="https://www.chakradental.in/zirconia-crowns"
         />
       </Helmet>
       <ZirconiaCrownsHero />

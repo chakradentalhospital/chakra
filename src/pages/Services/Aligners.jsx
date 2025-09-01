@@ -21,7 +21,7 @@ const Aligners = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/aligners"
+          href="https://www.chakradental.in/aligners"
         />
       </Helmet>
       <AlignersHeroSection />

@@ -18,7 +18,7 @@ const DentalCrowns = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/dental-crowns"
+          href="https://www.chakradental.in/dental-crowns"
         />
       </Helmet>
       <DentalCrownsHero />

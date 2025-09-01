@@ -15,7 +15,7 @@ const KidsDentistry = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/kids-dentistry"
+          href="https://www.chakradental.in/kids-dentistry"
         />
       </Helmet>
       <KidsDentistryHero />

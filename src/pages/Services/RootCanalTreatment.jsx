@@ -19,7 +19,7 @@ const RootCanalTreatment = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/root-canal-treatment"
+          href="https://www.chakradental.in/root-canal-treatment"
         />
       </Helmet>
       <RootCanalTreatmentHero />

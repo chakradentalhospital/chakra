@@ -16,7 +16,7 @@ const PainFreeTreatment = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/pain-free-treatment"
+          href="https://www.chakradental.in/pain-free-treatment"
         />
       </Helmet>
       <PainFreeHeroSection />

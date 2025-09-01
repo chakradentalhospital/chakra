@@ -18,7 +18,7 @@ const FullMouthRehabilitation = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/full-mouth-rehabilitation"
+          href="https://www.chakradental.in/full-mouth-rehabilitation"
         />
       </Helmet>
       <FullMouthRehabilitationHero />

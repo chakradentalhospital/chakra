@@ -19,7 +19,7 @@ const ToothWhitening = () => {
         />
         <link
           rel="canonical"
-          href="https://www.chakradental.in/services/tooth-whitening"
+          href="https://www.chakradental.in/tooth-whitening"
         />
       </Helmet>
       <ToothWhiteningHero />
