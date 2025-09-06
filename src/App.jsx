@@ -25,6 +25,8 @@ import ZirconiaCrowns from "./pages/Services/ZirconiaCrowns";
 import FloatingCTA from "./FloatingCTA";
 import { ToastContainer } from "react-toastify";
 import ThankYouPage from "./pages/ThankYouPage";
+import { Navigate } from "react-router-dom";
+
 
 const AppContent = () => {
   const location = useLocation();
@@ -61,6 +63,7 @@ const AppContent = () => {
         <Route path="/full-mouth-rehabilitation" element={<FullMouthRehabilitation />} />
         <Route path="/dental-crowns" element={<DentalCrowns />} />
         <Route path="/zirconia-crowns" element={<ZirconiaCrowns />} />
+         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       {!hideLayout && <Footer />}
        {!hideLayout && <FloatingCTA />}
