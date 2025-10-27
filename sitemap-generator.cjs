@@ -5,6 +5,7 @@ const links = [
   { url: "/", changefreq: "weekly", priority: 1.0 },
   { url: "/about", changefreq: "monthly", priority: 0.8 },
   { url: "/contact", changefreq: "monthly", priority: 0.8 },
+  { url: "/blogs", changefreq: "monthly", priority: 0.8 },
 
   { url: "/kids-dentistry", changefreq: "monthly", priority: 0.7 },
   { url: "/dental-consultations", changefreq: "monthly", priority: 0.7 },

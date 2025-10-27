@@ -26,7 +26,8 @@ import FloatingCTA from "./FloatingCTA";
 import { ToastContainer } from "react-toastify";
 import ThankYouPage from "./pages/ThankYouPage";
 import { Navigate } from "react-router-dom";
-
+import Blogs from "./pages/Blogs";
+import Blog from "./Components/Blogs/Blog";
 
 const AppContent = () => {
   const location = useLocation();
@@ -48,6 +49,8 @@ const AppContent = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/blog-1" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/thankyou" element={<ThankYouPage />} />
         <Route path="/kids-dentistry" element={<KidsDentistry />} />

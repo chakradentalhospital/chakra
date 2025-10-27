@@ -12,6 +12,7 @@ import {
 const links = [
   { name: "Home", path: "/" },
   { name: "About Us", path: "/about" },
+  { name: "Blogs", path: "/blogs" },
 ];
 
 const serviceModules = [
