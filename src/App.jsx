@@ -46,11 +46,11 @@ const AppContent = () => {
       <ScrollToTop />
       <ToastContainer position="top-right" autoClose={3000} theme="colored" />
       {!hideLayout && <Navbar />}
-      <Routes>
+      <Routes>  
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/blogs/blog-1" element={<Blog />} />
+        <Route path="/blogs/top-pediatric-dental-clinics-in-coimbatore" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/thankyou" element={<ThankYouPage />} />
         <Route path="/kids-dentistry" element={<KidsDentistry />} />

@@ -38,7 +38,7 @@ const BlogSection = () => {
               </div>
 
               <Link
-                to={`/blogs/blog-${id}`}
+                to={`/blogs/top-pediatric-dental-clinics-in-coimbatore`}
                 className="inline-block mt-5 text-white bg-[#650E45] hover:bg-[#4e0b37] px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 self-start"
               >
                 Read More →
